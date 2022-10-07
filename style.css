@@ -1,0 +1,831 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.custom-shape-divider-bottom-1642257854 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1642257854 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 164px;
+}
+
+.custom-shape-divider-bottom-1642257854 .shape-fill {
+    fill: #fff;
+}
+.hero
+{
+    background-color: #FF4363;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.container
+{
+    width: 90%;
+    height: 100vh;
+    max-width: 1100px;
+    display: flex;
+    margin: auto;
+}
+.left
+{
+height: 100vh;
+width: 50%;
+position: relative;
+
+}
+
+.right
+{
+height: 100vh;
+width: 50%;
+position: relative;
+
+}
+
+.text-area
+{
+    
+    height: 400px;
+    
+    color: #fff;
+    margin-top: 120px;
+}
+.heading
+{
+font-size: 70px;
+font-weight: 700;
+
+}
+.sub-heading
+{
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 18px;
+}
+.btn-area
+{
+    margin-top: 30px;
+    
+}
+.white-btn button
+{
+    background-color: #fff;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FF4363;
+    border: none;
+    transition: all 0.3s ease;
+}
+.white-btn :hover
+{
+    background-color: #FF4363;
+    color: #fff;
+}
+.red-btn button
+{
+    background-color: #FF4363;
+    margin-left: 20px;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    transition: all 0.3s ease;
+}
+.red-btn :hover
+{
+    color: #FF4363;
+    background-color: #fff;
+}
+.right img
+{
+    position: absolute;
+    width: 125%;
+    transition: all 0.8s ease;
+}
+.right img:hover
+{
+    transform: translateY(-50px);
+}
+
+.right a{
+    transition: all 0.4s ease;
+}
+.right a :hover
+{
+    transform: translateY(-50px);
+}
+.card-area
+{
+    height: 100vh;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-cards
+{
+    height: 50%;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    transition: all 0.4s ease;
+}
+.main-cards :hover
+{
+    transform: translateY(-15px);
+}
+.card
+{
+    height: 300px;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 30px silver;
+    transition: all 0.4s ease;
+}
+.card :hover
+{
+    transform: translateY(-15px);
+}
+.sign
+{
+display: flex;
+justify-content: center;
+margin-top: 20px;
+height: 30px;
+}
+.card-text
+{
+height: 250px;
+margin-top: 10px;
+}
+
+.card-text-head
+{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 800;
+}
+.card-text-subhead
+{
+    height: 190px;
+    display: flex;
+    text-align: center;
+}
+.third-page
+{
+    height: 100vh;
+    width: 100%;
+}
+.left2
+{
+height: 100vh;
+width: 50%;
+position: relative;
+}
+.left2 img
+{
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    right: 20%;
+    transition: all 0.8s ease;
+}
+.left2 img :hover
+{
+    transform: translateY(-50px);
+}
+.left2 a{
+    transition: all 0.8s ease;
+}
+.left2 a :hover
+{
+    transform: translateY(-50px);
+}
+
+.third-page-textarea
+{
+    height: 75%;
+    margin-top: 15%;
+}
+.sign2
+{
+    height: 20%;
+    
+}
+.sign2 img
+{
+    max-width: 90%;
+    max-height: 80%;
+}
+.right2
+{
+height: 100vh;
+width: 50%;
+position: relative;
+}
+.third-head
+{
+height:25%;
+font-size: 50px;
+font-weight: 500;
+
+}
+.third-subhead
+{
+    height: 40%;
+    color: black;
+
+}
+.third-subhead ul{
+    list-style: none;
+}
+.third-subhead ul li
+{
+    content: "\2020";
+    color: black;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.btn-area2
+{
+    height: 14%;
+    position: relative;
+}
+.btn-area2 button
+{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.features-page
+{
+
+    height: 100vh;
+    width: 100%;
+}
+.features-left
+{
+height: 100vh;
+width: 50%;
+position: relative;
+}
+.features-right
+{
+height: 100vh;
+width: 50%;
+position: relative;
+}
+.features-right img 
+{
+    position:absolute;
+    height: 100%;
+    transition: all 0.8s ease;
+    max-width: 113%;
+}
+.features-right img:hover
+{
+    transform: translateY(-50px);
+}
+.features-right a
+{
+    transition: all 0.8s ease;
+}
+.features-right a:hover
+{
+    transform: translateY(-50px);
+}
+
+.features-logoarea
+{
+    height: 15%;
+}
+.features-logoarea img 
+{
+    max-height: 90%;
+
+}
+
+.features-textarea1
+{
+
+    height:25%;
+}
+.features-textarea2
+{
+
+    height:20%;
+}
+.features-head1
+{
+
+height: 60%;
+font-size:50px;
+font-weight:500;
+}
+.features-para1
+{
+
+height:40%;
+}
+.features-head2
+{
+
+    height:50%;
+    font-size: 20px;
+    font-weight:500;
+}
+.features-para2
+{
+
+    height:50%;
+}
+
+
+.question-page
+{
+    height: 100vh;
+    width: 100%;
+ 
+}
+
+
+.question-left
+{
+    height: 100vh;
+    width: 50%;
+  
+}
+.question-right
+{
+    height: 100vh;
+    width: 50%;
+    
+    position: relative;
+  
+}
+.question-right img 
+{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    height: 70%;
+    max-width: 90%;
+    transition: all 0.8s ease;
+}
+.question-right img:hover
+{
+    transform: translateY(-50px);
+}
+
+
+.last-page
+{
+    height:100vh;
+    width: 100%;
+
+}
+.counter
+{
+    background-color: #FF4363;
+    height:40%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact
+{
+
+    height:60%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.contact-textarea
+{
+    height:80%;
+    width: 70%;
+ 
+}
+.contact-head
+{
+    display: flex;
+    height:35%;
+ 
+    font-size:50px;
+    font-weight:500;
+    align-items:center;
+    justify-content:center;
+}
+.contact-para
+{
+    height:30%;
+   
+    display:flex;
+    text-align:center;
+    justify-content:center;
+}
+.contact-para-text
+{
+    
+ 
+    width:60%;
+}
+.last-btn 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.last-btn button
+{
+    background-color: #FF4363;
+    margin-left: 20px;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+    transition: all 0.3s ease;
+}
+.last-btn button:hover
+{
+    color: #FF4363;
+    background-color:#fff
+}
+.counter-text
+{
+    height:90%;
+    width:70%;
+ 
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.values
+{
+  
+    height:70%;
+    width: 30%;
+}
+.values-head
+{
+    display: flex;
+    height:70%;
+    font-size:50px;
+    color: #fff;
+    align-items: center;
+    justify-content:center;
+}
+.values-text
+{
+    color: #fff;
+    text-align: center;
+}
+
+.footer
+{
+    height:80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-container
+{
+
+    width:90%;
+    height:80%;
+    display: flex;
+}
+.contact-logo
+{
+    width: 50%;
+    height:100%;
+
+    display: flex;
+   
+}
+.contact-logo ul
+{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.contact-logo li
+{
+    margin-left:30px;
+    color:#fff;
+    list-style-type:none;
+
+}
+.copyright
+{
+    width: 50%;
+    height:100%;
+
+    position: relative;
+}
+.copyright span
+{
+    color: #fff;
+    position: absolute;
+    font-size:18px;
+    font-weight:400;
+    right: 0;
+    top: 35%;
+}
+
+.custom-shape-divider-bottom-1644430953 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1644430953 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 143px;
+}
+
+.custom-shape-divider-bottom-1644430953 .shape-fill {
+    fill: #FFFFFF;
+}
+.next-way
+{
+    background-color: #FF4363;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.next-left
+{
+    height: 100vh;
+    width: 50%;
+    position: relative;
+
+}
+.next-right
+{
+    height: 100vh;
+    width: 50%;
+    position: relative;
+
+}
+.next-textarea
+{
+    height: 75%;
+    margin-top: 15%;
+
+    color: #fff;
+}
+.next-subhead
+{
+    height: 20%;
+    color: black;
+
+}
+.next-left img
+{
+    position: absolute;
+    width: 100%;
+    right:20%;
+    top: 15%;
+    transition: all 0.8s ease;
+}
+.next-left img:hover
+{
+    transform: translateY(-50px);
+}
+
+
+
+
+
+@media screen and (max-width:700px)
+{
+    .right
+    {
+        display:none;
+
+    }
+    .right img {display:none;}
+
+
+    .main-cards
+    {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .card-area
+    {
+        height: 100%;
+    }
+    .text-area
+    {
+        height: 40%;
+        width: 100%;
+    
+        margin-top: 50px;
+    }
+    .left
+    {
+        
+        width: fit-content;
+        background-image: url(./Saly-19.png);
+        background-repeat: no-repeat;
+        background-position: 0px 350px;
+        background-size: contain;
+
+        }
+    .heading
+    {
+        font-size: 2em;
+    }
+    .btn-area
+    {
+        display: flex;
+        
+    }
+    .white-btn , .red-btn
+    {
+        height: 30px;
+        width: 120px;
+        font-size:  12px;
+        display: flex;
+        text-decoration: none;
+    }
+    .hero
+    {
+        height: 100%;
+    }
+    .left2
+    {
+        display:none;
+    }
+    .right2
+    {
+        display:block;
+        width: 100%;
+    }
+    .third-head
+    {
+        font-size:  2.2em;
+        text-align: center;
+    }
+    .sign2
+    {
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+    .third-subhead
+    {
+        font-size:  1em;
+        text-align: center;
+        height:fit-content;
+    }
+    .btn-area2 
+    {
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+
+    .features-right
+    {
+        display: none;
+    }
+    .features-left
+    {
+        display:block;
+        width: 100%;
+    }
+    .features-head1
+    {
+        font-size:2.2em;
+        height:fit-content;
+    }
+    .features-para1
+    {
+        margin-top:30px;
+    }
+    .next-left
+    {
+        display:none;
+    }
+    .next-right
+    {
+        display:block;
+        width: 100%;
+        background-image: url(./Saly-24.png);
+        background-repeat: no-repeat;
+        background-position: 0px 420px;
+        background-size: contain;
+    }
+    .next-subhead
+    {
+        text-align:center;
+    }
+
+    .question-right
+    {
+        display: none;
+    }
+    .question-left
+    {
+        display:block;
+        width: 100%;
+    }
+    .contact-para
+    {
+        height:fit-content;
+    }
+
+    .contact-head
+    {
+         text-align: center;
+         font-size: 2em;
+    }
+    .last-btn
+    {
+        margin-top:20px;
+        height: 40px;
+        width: 150px;
+        font-size:  12px;
+        margin-left: 30px;
+    }
+.counter-text
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+    .values-head
+    {
+        font-size: 2em;
+    }
+    .values-text
+    {font-size:0.6em;}
+    .values
+    {
+        width: 70px;;
+        margin-left:8px;
+        margin-right: 8px;;
+    }
+
+    .contact-logo
+    {
+        display: flex;
+        justify-items: auto;
+    }
+
+    .insta
+    {
+        display:none;
+    }
+    .link
+    {
+        display:none;
+    }
+}
+
+@media screen and (min-width:700px) and (max-width:1075px)
+{
+.third-subhead
+{
+margin-top:30px;
+}
+}
